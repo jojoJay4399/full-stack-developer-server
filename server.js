@@ -3,7 +3,7 @@ import cors from 'cors';
 import helloController from "./controller/hello-controller.js";
 import userController from "./controller/user-controller.js";
 import tuitsController from "./controller/tuits-controller.js";
-// const express = require('express');
+// const express = require('express');gizzz
 const app = express();
 app.use(cors());
 app.use(express.json());
