@@ -6,12 +6,12 @@ const schema = mongoose.Schema({
     likes: {type: Number, default: 0},
     username: {type: String, default: 'JOJO'},
     handle : {type: String, default: 'jojo'},
-    time: {type: String, default: 'a second ago'},
+    time: {type: String, default: 'one second ago'},
     withTuit: {type : Boolean, default: true},
     image: {type : String, default: '../../../images/bookmarks1.jpg'},
     avatar: {type : String, default: '../../../images/3.jpg'},
-    liked: Boolean,
-    disliked: Boolean
+    liked: {type : Boolean, default: false},
+    disliked: {type : Boolean, default: false}
     // postedBy: {
     //     username: String
     // }
